@@ -10,7 +10,6 @@ xgboost==1.7.6         # If using XGBoost for gradient boosting
 lightgbm==4.0.0        # If using LightGBM for gradient boosting
 catboost==1.2          # If using CatBoost for gradient boosting
 joblib==1.4.0          # For saving machine learning models
-imblearn==0.12.0       # For handling imbalanced data
 flask==3.0.0           # If building a web application
 gunicorn==20.1.0       # For running the Flask app in production
 requests==2.31.0       # For making HTTP requests (if necessary)
