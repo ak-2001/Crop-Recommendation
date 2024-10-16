@@ -3,13 +3,25 @@ pandas==1.5.3
 scikit-learn==1.2.0
 matplotlib==3.7.1
 seaborn==0.12.2
+joblib==1.4.0
+dask==2024.1.0         
+tensorflow==2.12.0      
+keras==2.12.0          
+xgboost==1.7.6          
+lightgbm==4.0.0         
+catboost==1.2           
+imblearn==0.12.0       
+torch==2.0.1            
+fastai==2.7.12          
+hdbscan==0.8.31         
+optuna==3.2.0           
+hyperopt==0.2.7         
+flask==3.0.0            
+gunicorn==20.1.0       
+requests==2.31.0
+plotly==5.15.0          
+dash==2.12.0           
 jupyterlab==4.0.5
 notebook==7.0.3
-tensorflow==2.12.0     # If using TensorFlow for deep learning models
-xgboost==1.7.6         # If using XGBoost for gradient boosting
-lightgbm==4.0.0        # If using LightGBM for gradient boosting
-catboost==1.2          # If using CatBoost for gradient boosting
-joblib==1.4.0          # For saving machine learning models
-flask==3.0.0           # If building a web application
-gunicorn==20.1.0       # For running the Flask app in production
-requests==2.31.0       # For making HTTP requests (if necessary)
+lime==0.2.0.1           
+shap==0.42.1         
